@@ -21,5 +21,14 @@ console.log(Cor.Amarelo, Cor.Larnja)
 function digaOi(): void {
     console.log('Oi')
 }
-
 digaOi()
+
+function multiplicar(a: number, b: number):number {
+    return a * b
+}
+
+
+let calculo: (numeroA: number, numeroB: number) => number 
+
+calculo = multiplicar
+console.log(multiplicar(6, 5))

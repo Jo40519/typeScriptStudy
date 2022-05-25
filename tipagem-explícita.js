@@ -18,3 +18,9 @@ function digaOi() {
     console.log('Oi');
 }
 digaOi();
+function multiplicar(a, b) {
+    return a * b;
+}
+let calculo;
+calculo = multiplicar;
+console.log(multiplicar(6, 5));
