@@ -24,3 +24,34 @@ function multiplicar(a, b) {
 let calculo;
 calculo = multiplicar;
 console.log(multiplicar(6, 5));
+// Desafio
+let funcionario = {
+    supervisores: ['Milenna', 'João', 'Williams'],
+    baterPonto(hora) {
+        if (hora <= 8) {
+            return 'normal';
+        }
+        else {
+            return 'Fora do horário';
+        }
+    }
+};
+console.log(funcionario.baterPonto(9));
+// never
+function falha(msg) {
+    throw new Error(msg);
+}
+const produto = {
+    nome: 'Sabão',
+    preco: -1,
+    validarProduto() {
+        if (!this.nome || this.nome.trim().length == 0) {
+            falha('Precisa ter um nome');
+        }
+        if (this.preco < 0) {
+            falha('Preço inválido');
+        }
+    }
+};
+produto.validarProduto();
+//# sourceMappingURL=tipagem-expl%C3%ADcita.js.map
