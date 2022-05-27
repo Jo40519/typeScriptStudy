@@ -1,1 +1,1 @@
-{"version":3,"file":"ecmaScript.js","sourceRoot":"","sources":["ecmaScript.ts"],"names":[],"mappings":""}
+{"version":3,"file":"ecmaScript.js","sourceRoot":"","sources":["ecmaScript.ts"],"names":[],"mappings":";AAAA,iBAAiB;AAEjB,MAAM,QAAQ,GAAG,CAAC,EAAU,EAAE,EAAU,EAAS,EAAE;IAC/C,OAAO,EAAE,GAAG,EAAE,CAAA;AAClB,CAAC,CAAA;AAED,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAA"}
