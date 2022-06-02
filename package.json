@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jo40519/typeScriptStudy/issues"
   },
-  "homepage": "https://github.com/Jo40519/typeScriptStudy#readme"
+  "homepage": "https://github.com/Jo40519/typeScriptStudy#readme",
+  "dependencies": {
+    "systemjs": "^0.21.6"
+  }
 }
