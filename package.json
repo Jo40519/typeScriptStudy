@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Jo40519/typeScriptStudy#readme",
   "dependencies": {
+    "@types/node": "^17.0.38",
     "systemjs": "^0.21.6"
   }
 }
