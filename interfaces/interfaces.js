@@ -29,4 +29,9 @@ const meuCliente = new Cliente();
 meuCliente.nome = 'Han';
 meuCliente.saudar('Solo');
 meuCliente.ultimaCompra.toLocaleDateString();
+let potencia;
+potencia = function (base, exp) {
+    return base ** exp;
+};
+console.log(potencia(3, 10));
 //# sourceMappingURL=interfaces.js.map

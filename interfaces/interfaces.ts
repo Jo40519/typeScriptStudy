@@ -40,3 +40,16 @@ const meuCliente = new Cliente()
 meuCliente.nome = 'Han'
 meuCliente.saudar('Solo')
 meuCliente.ultimaCompra.toLocaleDateString()
+
+// InterfaceFuncao
+
+interface FuncaoCalculo {
+    (a: number, b:number): number
+}
+
+let potencia: FuncaoCalculo
+
+potencia = function (base: number, exp: number): number {
+    return base ** exp
+}
+console.log(potencia(3, 10))
