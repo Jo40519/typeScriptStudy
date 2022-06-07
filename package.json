@@ -20,5 +20,8 @@
   "dependencies": {
     "@types/node": "^17.0.38",
     "systemjs": "^0.21.6"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14"
   }
 }
