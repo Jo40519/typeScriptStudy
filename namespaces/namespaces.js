@@ -14,3 +14,10 @@ var area;
 console.log(area.circunferencia(10));
 console.log(area.retangulo(10, 20));
 //# sourceMappingURL=namespaces.js.map
+
+function abrevieName(str) {
+    let arr = str.split('')
+    console.log(arr)
+}
+
+console.log('Sam Harris')
