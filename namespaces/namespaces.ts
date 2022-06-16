@@ -55,12 +55,57 @@
 
 // console.log(Kata.highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
 
-export function abrevieName(str: string) {
-    let array = str.split(' ').map((elemento, i) => {
-        return elemento[0].toUpperCase()
-    }).join('.')
-    console.log(array)
-    return array
-}
+// export function abrevieName(str: string) {
+//     let array = str.split(' ').map((elemento, i) => {
+//         return elemento[0].toUpperCase()
+//     }).join('.')
+//     console.log(array)
+//     return array
+// }
+// console.log(abrevieName('Sam Harris'))
 
-console.log(abrevieName('Sam Harris'))
+// export const fakeBin = (x: string) => {
+//     let arr = x.split('').map(elemento => {
+//         return Number(elemento)
+//     }).map(elemento => {
+//         if (elemento > 5) {
+//             return 1
+//         } else if (elemento < 5) {
+//             return 0
+//         }
+//     }).join('')
+//     return arr
+//     console.log(arr)
+// }
+
+// console.log(fakeBin('45385593107843568'))
+
+// export class Kata {
+//     static squareDigits(num: number) {
+//         let str = String(num).split('').map(elemento => {
+//             return Number(elemento)
+//         }).map(elemento => {
+//             return elemento ** 2
+//         }).join('')
+//         let number = Number(str)
+//         console.log(number)
+//         console.log(str)
+//     }
+// }
+
+// console.log(Kata.squareDigits(9119))
+
+// export function solution(nums: number[]): number[] {
+//     let arr: number[] = []
+//     if (nums.length > 0) {
+//         return arr = nums.sort((a, b) => {
+//         return a - b
+//     })
+//     }
+//     if (nums.length < 0) {
+//         return arr = []
+//     }
+//     return arr
+// }
+
+// console.log(solution([1, 2, 10, 50, 5]))
